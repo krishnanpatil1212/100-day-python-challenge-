@@ -1,0 +1,5 @@
+r=int(input("enter your value:"))
+print("area of circle:")
+print(3.14*(r*r))
+print("circumference of circle:")
+print(2*3.14*(r*r))
