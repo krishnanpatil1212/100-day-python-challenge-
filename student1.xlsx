@@ -1,0 +1,13 @@
+
+import pandas as pd
+import os
+
+df = pd.DataFrame({
+    "Name":["Krishna","Rahul"],
+    "Age":[21,22]
+})
+
+df.to_excel("students.xlsx", index=False)
+
+print("File saved at:")
+print(os.path.abspath("students.xlsx"))
